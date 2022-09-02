@@ -1,5 +1,8 @@
+import { TextEditor } from "./components/TextEditor";
+import "./index.css";
+
 const App = () => {
-  return <div>App</div>;
+  return <TextEditor />;
 };
 
 export default App;
